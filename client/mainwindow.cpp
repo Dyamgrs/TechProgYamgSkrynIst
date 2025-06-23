@@ -5,7 +5,8 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
-    , caesarWindow(new Task1_Caesar())  // Убрали parent
+    , caesarWindow(new Task1_Caesar())
+    , hashWindow(new task2_hash())
 {
     ui->setupUi(this);
 
@@ -16,6 +17,16 @@ MainWindow::MainWindow(QWidget *parent)
     });
     connect(caesarWindow, &Task1_Caesar::backToMainWindow, this, [this]() {
         caesarWindow->hide();
+        this->show();
+    });
+
+    connect(ui->pushButton_task2, &QPushButton::clicked, this, [this]() {
+        this->hide();
+        hashWindow->show();
+    });
+
+    connect(hashWindow, &task2_hash::backToMainWindow, this, [this]() {
+        hashWindow->hide();
         this->show();
     });
 }
@@ -33,6 +44,8 @@ void MainWindow::onTask1Clicked()
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete caesarWindow;
+    delete hashWindow;
 }
 
 void MainWindow::on_pushButton_task1_clicked()

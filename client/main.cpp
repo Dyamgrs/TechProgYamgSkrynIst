@@ -17,7 +17,9 @@ int main(int argc, char *argv[])
 
     // Показываем форму авторизации
     w.show();
-    Singleton_client::getInstance()->doRequest("");
+    // Отправляем тестовую команду к серверу
+    QString response = Singleton_client::getInstance()->doRequest("auth&user,password\r\n");
+    qDebug() << "Server response:" << response;
     // Запускаем главный цикл обработки событий приложения
     // Этот вызов блокирует выполнение до закрытия приложения
     return a.exec();

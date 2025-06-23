@@ -1,4 +1,5 @@
 #include "functionClient.h"
+#include "singleton_client.h"
 #include <QMessageBox>
 
 // Разделитель для данных

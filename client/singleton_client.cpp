@@ -47,8 +47,13 @@ void Singleton_client::initTCP() {
 
 // Метод для выполнения запроса к серверу
 QString Singleton_client::doRequest(QByteArray request) {
-    this->tcpInstance->write(request);
-    this->tcpInstance->waitForBytesWritten(1000);
-    this->tcpInstance->waitForReadyRead(2000);
-    return QString::fromUtf8(this->tcpInstance->readAll());
+    if (this->tcpInstance) {
+        this->tcpInstance->write(request + "\r\n"); // Добавьте разделитель \r\n
+        this->tcpInstance->waitForBytesWritten(1000);
+        this->tcpInstance->waitForReadyRead(2000);
+        QByteArray response = this->tcpInstance->readAll();
+        qDebug() << "Server response:" << response; // Логирование ответа
+        return QString::fromUtf8(response);
+    }
+    return QString();
 }

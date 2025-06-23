@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "task1_caesar.h"
+#include "task2_hash.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -24,5 +25,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
     Task1_Caesar *caesarWindow;
+    task2_hash *hashWindow;
 };
 #endif // MAINWINDOW_H

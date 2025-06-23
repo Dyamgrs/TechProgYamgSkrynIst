@@ -14,8 +14,6 @@ class Task1_Caesar : public QWidget
 public:
     explicit Task1_Caesar(QWidget *parent = nullptr);
     ~Task1_Caesar();
-
-    // Перенесите метод в public секцию
     QString caesarCipher(const QString &text, int shift, bool encrypt);
 
 signals:
@@ -28,7 +26,6 @@ private slots:
 
 private:
     Ui::Task1_Caesar *ui;
-    // Убрали отсюда caesarCipher
 };
 
 #endif // TASK1_CAESAR_H
