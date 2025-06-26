@@ -1,0 +1,165 @@
+\doxysection{ui\+\_\+authorization.\+h}
+\hypertarget{ui__authorization_8h_source}{}\label{ui__authorization_8h_source}\index{build/Desktop\_Qt\_6\_9\_0\_MinGW\_64\_bit-\/Debug/client\_autogen/include/ui\_authorization.h@{build/Desktop\_Qt\_6\_9\_0\_MinGW\_64\_bit-\/Debug/client\_autogen/include/ui\_authorization.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/********************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ Form\ generated\ from\ reading\ UI\ file\ 'authorization.ui'}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ Created\ by:\ Qt\ User\ Interface\ Compiler\ version\ 6.9.0}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**}}
+\DoxyCodeLine{00006\ \textcolor{comment}{**\ WARNING!\ All\ changes\ made\ in\ this\ file\ will\ be\ lost\ when\ recompiling\ UI\ file!}}
+\DoxyCodeLine{00007\ \textcolor{comment}{********************************************************************************/}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#ifndef\ UI\_AUTHORIZATION\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ UI\_AUTHORIZATION\_H}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QtCore/QVariant>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QtWidgets/QApplication>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QtWidgets/QGridLayout>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QtWidgets/QHBoxLayout>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLabel>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QtWidgets/QLineEdit>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <QtWidgets/QPushButton>}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ <QtWidgets/QWidget>}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ui__authorization}{Ui\_authorization}}}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ QWidget\ *gridLayoutWidget;}
+\DoxyCodeLine{00027\ \ \ \ \ QGridLayout\ *gridLayout\_2;}
+\DoxyCodeLine{00028\ \ \ \ \ QLineEdit\ *lineEdit\_login;}
+\DoxyCodeLine{00029\ \ \ \ \ QLineEdit\ *lineEdit\_email;}
+\DoxyCodeLine{00030\ \ \ \ \ QLineEdit\ *lineEdit\_password;}
+\DoxyCodeLine{00031\ \ \ \ \ QLabel\ *label\_password;}
+\DoxyCodeLine{00032\ \ \ \ \ QHBoxLayout\ *horizontalLayout\_6;}
+\DoxyCodeLine{00033\ \ \ \ \ QPushButton\ *pushButton\_authorization;}
+\DoxyCodeLine{00034\ \ \ \ \ QPushButton\ *pushButton\_registration;}
+\DoxyCodeLine{00035\ \ \ \ \ QPushButton\ *pushButton\_change;}
+\DoxyCodeLine{00036\ \ \ \ \ QLabel\ *label\_login;}
+\DoxyCodeLine{00037\ \ \ \ \ QLabel\ *label\_email;}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ setupUi(QWidget\ *\mbox{\hyperlink{classauthorization}{authorization}})}
+\DoxyCodeLine{00040\ \ \ \ \ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{classauthorization}{authorization}}-\/>objectName().isEmpty())}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classauthorization}{authorization}}-\/>setObjectName(\textcolor{stringliteral}{"{}authorization"{}});}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classauthorization}{authorization}}-\/>resize(668,\ 460);}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classauthorization}{authorization}}-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}background-\/color:\ rgb(255,\ 255,\ 255)"{}}));}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ gridLayoutWidget\ =\ \textcolor{keyword}{new}\ QWidget(\mbox{\hyperlink{classauthorization}{authorization}});}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ gridLayoutWidget-\/>setObjectName(\textcolor{stringliteral}{"{}gridLayoutWidget"{}});}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ gridLayoutWidget-\/>setGeometry(QRect(30,\ 50,\ 601,\ 371));}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ gridLayout\_2\ =\ \textcolor{keyword}{new}\ QGridLayout(gridLayoutWidget);}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>setObjectName(\textcolor{stringliteral}{"{}gridLayout\_2"{}});}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>setContentsMargins(0,\ 0,\ 0,\ 0);}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ lineEdit\_login\ =\ \textcolor{keyword}{new}\ QLineEdit(gridLayoutWidget);}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ lineEdit\_login-\/>setObjectName(\textcolor{stringliteral}{"{}lineEdit\_login"{}});}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ lineEdit\_login-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00054\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00055\ \textcolor{stringliteral}{"{}background-\/color:\ rgb(255,\ 255,\ 255);\(\backslash\)n"{}}}
+\DoxyCodeLine{00056\ \textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addWidget(lineEdit\_login,\ 1,\ 2,\ 1,\ 1);}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ lineEdit\_email\ =\ \textcolor{keyword}{new}\ QLineEdit(gridLayoutWidget);}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ lineEdit\_email-\/>setObjectName(\textcolor{stringliteral}{"{}lineEdit\_email"{}});}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ lineEdit\_email-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00063\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00064\ \textcolor{stringliteral}{"{}background-\/color:\ rgb(255,\ 255,\ 255);\(\backslash\)n"{}}}
+\DoxyCodeLine{00065\ \textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addWidget(lineEdit\_email,\ 0,\ 2,\ 1,\ 1);}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ lineEdit\_password\ =\ \textcolor{keyword}{new}\ QLineEdit(gridLayoutWidget);}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ lineEdit\_password-\/>setObjectName(\textcolor{stringliteral}{"{}lineEdit\_password"{}});}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ lineEdit\_password-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00072\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00073\ \textcolor{stringliteral}{"{}background-\/color:\ rgb(255,\ 255,\ 255);\(\backslash\)n"{}}}
+\DoxyCodeLine{00074\ \textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addWidget(lineEdit\_password,\ 2,\ 2,\ 1,\ 1);}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ label\_password\ =\ \textcolor{keyword}{new}\ QLabel(gridLayoutWidget);}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ label\_password-\/>setObjectName(\textcolor{stringliteral}{"{}label\_password"{}});}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ label\_password-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00081\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00082\ \textcolor{stringliteral}{"{}background:\ rgb(255,\ 255,\ 127)"{}}));}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addWidget(label\_password,\ 2,\ 0,\ 1,\ 1);}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ horizontalLayout\_6\ =\ \textcolor{keyword}{new}\ QHBoxLayout();}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ horizontalLayout\_6-\/>setObjectName(\textcolor{stringliteral}{"{}horizontalLayout\_6"{}});}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ horizontalLayout\_6-\/>setContentsMargins(0,\ -\/1,\ -\/1,\ -\/1);}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ pushButton\_authorization\ =\ \textcolor{keyword}{new}\ QPushButton(gridLayoutWidget);}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ pushButton\_authorization-\/>setObjectName(\textcolor{stringliteral}{"{}pushButton\_authorization"{}});}
+\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ pushButton\_authorization-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00092\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00093\ \textcolor{stringliteral}{"{}background:\ rgb(255,\ 255,\ 127)"{}}));}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ horizontalLayout\_6-\/>addWidget(pushButton\_authorization);}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ pushButton\_registration\ =\ \textcolor{keyword}{new}\ QPushButton(gridLayoutWidget);}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ pushButton\_registration-\/>setObjectName(\textcolor{stringliteral}{"{}pushButton\_registration"{}});}
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ pushButton\_registration-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00100\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00101\ \textcolor{stringliteral}{"{}background:\ rgb(255,\ 255,\ 127)"{}}));}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ horizontalLayout\_6-\/>addWidget(pushButton\_registration);}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ pushButton\_change\ =\ \textcolor{keyword}{new}\ QPushButton(gridLayoutWidget);}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ pushButton\_change-\/>setObjectName(\textcolor{stringliteral}{"{}pushButton\_change"{}});}
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ pushButton\_change-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00108\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00109\ \textcolor{stringliteral}{"{}background:\ rgb(255,\ 255,\ 127)"{}}));}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ horizontalLayout\_6-\/>addWidget(pushButton\_change);}
+\DoxyCodeLine{00112\ }
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addLayout(horizontalLayout\_6,\ 3,\ 2,\ 1,\ 1);}
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ label\_login\ =\ \textcolor{keyword}{new}\ QLabel(gridLayoutWidget);}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ label\_login-\/>setObjectName(\textcolor{stringliteral}{"{}label\_login"{}});}
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ label\_login-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00119\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00120\ \textcolor{stringliteral}{"{}background:\ rgb(255,\ 255,\ 127)"{}}));}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addWidget(label\_login,\ 1,\ 0,\ 1,\ 1);}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00124\ \ \ \ \ \ \ \ \ label\_email\ =\ \textcolor{keyword}{new}\ QLabel(gridLayoutWidget);}
+\DoxyCodeLine{00125\ \ \ \ \ \ \ \ \ label\_email-\/>setObjectName(\textcolor{stringliteral}{"{}label\_email"{}});}
+\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ label\_email-\/>setStyleSheet(QString::fromUtf8(\textcolor{stringliteral}{"{}font:\ 700\ 14pt\ \(\backslash\)"{}Times\ New\ Roman\(\backslash\)"{};\(\backslash\)n"{}}}
+\DoxyCodeLine{00127\ \textcolor{stringliteral}{"{}color:\ rgb(0,\ 0,\ 0);\(\backslash\)n"{}}}
+\DoxyCodeLine{00128\ \textcolor{stringliteral}{"{}background:\ rgb(255,\ 255,\ 127)"{}}));}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \ \ \ \ \ \ \ \ gridLayout\_2-\/>addWidget(label\_email,\ 0,\ 0,\ 1,\ 1);}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ }
+\DoxyCodeLine{00133\ \ \ \ \ \ \ \ \ retranslateUi(\mbox{\hyperlink{classauthorization}{authorization}});}
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00135\ \ \ \ \ \ \ \ \ QMetaObject::connectSlotsByName(\mbox{\hyperlink{classauthorization}{authorization}});}
+\DoxyCodeLine{00136\ \ \ \ \ \}\ \textcolor{comment}{//\ setupUi}}
+\DoxyCodeLine{00137\ }
+\DoxyCodeLine{00138\ \ \ \ \ \textcolor{keywordtype}{void}\ retranslateUi(QWidget\ *\mbox{\hyperlink{classauthorization}{authorization}})}
+\DoxyCodeLine{00139\ \ \ \ \ \{}
+\DoxyCodeLine{00140\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classauthorization}{authorization}}-\/>setWindowTitle(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Form"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ lineEdit\_login-\/>setText(QString());}
+\DoxyCodeLine{00142\ \ \ \ \ \ \ \ \ lineEdit\_password-\/>setText(QString());}
+\DoxyCodeLine{00143\ \ \ \ \ \ \ \ \ label\_password-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Password:"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00144\ \ \ \ \ \ \ \ \ pushButton\_authorization-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Authorization"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ pushButton\_registration-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Registration"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ pushButton\_change-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Change"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ label\_login-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Login:"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ label\_email-\/>setText(QCoreApplication::translate(\textcolor{stringliteral}{"{}authorization"{}},\ \textcolor{stringliteral}{"{}Email:"{}},\ \textcolor{keyword}{nullptr}));}
+\DoxyCodeLine{00149\ \ \ \ \ \}\ \textcolor{comment}{//\ retranslateUi}}
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00151\ \};}
+\DoxyCodeLine{00152\ }
+\DoxyCodeLine{00153\ \textcolor{keyword}{namespace\ }Ui\ \{}
+\DoxyCodeLine{00154\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ui_1_1authorization}{authorization}}:\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_ui__authorization}{Ui\_authorization}}\ \{\};}
+\DoxyCodeLine{00155\ \}\ \textcolor{comment}{//\ namespace\ Ui}}
+\DoxyCodeLine{00156\ }
+\DoxyCodeLine{00157\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00158\ }
+\DoxyCodeLine{00159\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ UI\_AUTHORIZATION\_H}}
+
+\end{DoxyCode}

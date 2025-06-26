@@ -1,0 +1,25 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"authorization_8h_source.html":[1,0,0,0],
+"class_main_window.html":[0,0,1],
+"class_my_tcp_server.html":[0,0,2],
+"class_singleton__client.html":[0,0,3],
+"class_singleton__client_destroyer.html":[0,0,4],
+"class_task1___caesar.html":[0,0,5],
+"classauthorization.html":[0,0,0],
+"classes.html":[0,1],
+"classtask2__hash.html":[0,0,6],
+"dir_41e1742e44e2de38b3bc91f993fed282.html":[1,0,1],
+"dir_db3a54907829b36871118d03417739cd.html":[1,0,0],
+"files.html":[1,0],
+"function_client_8h_source.html":[1,0,0,1],
+"hierarchy.html":[0,2],
+"index.html":[],
+"mainwindow_8h_source.html":[1,0,0,2],
+"mytcpserver_8h_source.html":[1,0,1,0],
+"pages.html":[],
+"singleton__client_8h_source.html":[1,0,0,3],
+"task1__caesar_8h_source.html":[1,0,0,4],
+"task2__hash_8h_source.html":[1,0,0,5]
+};
